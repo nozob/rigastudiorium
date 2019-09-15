@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en, ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="g2025.css">
+  <title>E&T|studiorium|RIGA</title>
+</head>
+
+<body>
+
+  <div class="twocolgrid" id="tabs">
+
+    <section class="lcol">
+      <div class="vermen">
+        <span class="mentitle">MEN{U}</span>
+        <div class="menuitem" id="mig2025">
+          <div class="submenitem tcurrent"><a href="#pcont1">Merchants</a></div>
+          <div class="submenitem"><a href="#pcont2">Merchant Accounts</a></div>
+          <div class="submenitem"><a href="#pcont3">JSON lint</a></div>
+          <div class="submenitem_n"><a href="studiorium.html">Back</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rcol pccurrent" id="pcont1">
+      <div class="sectitle">Merchant</div>
+      <div class="tbox">
+        <p>The "Merchant" entity represents ...</p>
+      </div>
+    </section>
+
+    <section class="rcol" id="pcont2">
+      <div class="sectitle">Merchant<br />Account</div>
+      <div class="tbox">
+        <p>The "Merchant Account" is ...</p>
+      </div>
+    </section>
+
+    <section class="rcol" id="pcont3">
+      <div class="sectitle">JSON<br />lint</div>
+      <iframe class="inlay" src="https://jsonlint.com/"></iframe>
+    </section>
+
+  </div>
+
+  <script src="switcher.js"></script>
+  <script>
+  new switcher( document.getElementById( 'tabs' ) );
+  </script>
+
+</body>
+
+</html>
